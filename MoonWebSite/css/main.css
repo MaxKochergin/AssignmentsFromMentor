@@ -1,0 +1,133 @@
+
+
+ @font-face {
+    font-family: 'Gilroy-Regular', sans-serif;
+    src: url(../fonts/gilroy-regular.woff2);
+    font-style: normal;
+    font-weight:400 ;
+  }
+
+  @font-face {
+    font-family: 'Gilroy-Medium', sans-serif;
+    src: url(../fonts/gilroy-medium.woff2);
+    font-style: normal;
+    font-weight:500;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-style: normal;
+    font-weight:600;
+  }
+
+  html{
+    box-sizing: border-box;
+  }
+
+  *,
+  *::after,
+  *::before{
+    box-sizing: inherit;
+  }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  body{
+
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  
+
+  .header {
+  }
+
+ 
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .header__container {
+    max-width: 1200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation{
+    min-width:640px ;
+    min-height: 50px;
+    display: flex;
+    /* margin-right: 75px; */
+    align-items: center;  
+    padding: 24px 0;
+  }
+  .header__logo {
+    max-width: 183px;
+    max-height: 48px;
+    
+    
+  }
+  .header__navigation {
+    margin-left: 122px;
+
+  }
+  .header__navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 10.5px 0;
+  }
+  .header__navigation-item {
+
+  }
+  .header__navigation-link {
+  }
+
+
+  .buttons{
+    min-width:490px ;
+    min-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px 24px 0;
+
+  }
+  .header__search {
+    margin-right: 65px;
+    min-width: 320px;
+    min-height: 45px;
+   
+  }
+  .header__search-txt {
+  }
+  .header__search-btn {
+  }
+  .header__search-img {
+  }
+  .header__buttons {
+  
+  }
+  .header__button-list {
+    min-width: 104px;
+    min-height: 24px;
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+   
+
+  }
+  .header__button-item {
+  }
