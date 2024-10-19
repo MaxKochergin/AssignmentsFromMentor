@@ -195,6 +195,11 @@
 
 /* ---------------------------product__description------------------------- */
 
+
+
+/* ---------------------------product__info------------------------- */
+
+
 .product__container{
   display: flex;
 }
@@ -311,12 +316,162 @@ b{
   padding-right:12px ;
 }
 .product__social {
+  display: flex;
+  align-items: center;
 }
 .product__social-text {
+  margin-right: 35px;
 }
 .product__social-links {
+  display: flex;
+  gap: 16px;
 }
 .product__social-links-item {
 }
+
+
+
+/* ---------------------------product__details------------------------- */
+/* cursor: pointer; */
+
+
 .product__details {
+  height: 203px;
+
 }
+.product__accordeon {
+  background-color: #FFFFFF;
+  margin-top: 40px;
+  padding: 24px 
+
+
+}
+.product__accordeon-trigger {
+
+ 
+}
+
+.product__accordeon-trigger-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); ;
+  height: 49px;
+  margin-bottom: 16px;
+
+
+}
+.product__accordeon-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #3A3845;
+}
+.product__accordeon-sign {
+
+}
+
+.product__accordeon-trigger-inner_last{
+  border-bottom: none;
+  height: 25px;
+  margin-bottom: 0px;
+
+
+}
+
+
+
+
+/* ---------------------------Similar------------------------- */
+
+
+/* ---------------------------similar__top------------------------- */
+
+.similar {
+  margin-top: 130px;
+}
+.container {
+}
+.similar__container {
+}
+.similar__top {
+}
+.similar__top-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 49px;
+}
+.similar__top-title {
+  font-weight: 600;
+  font-size: 40px;
+  color: #3A3845;
+}
+.similar__top-buttons {
+  display: flex;
+  gap: 12px;
+
+}
+.similar__top-button-left {
+  width: 44px;
+  height: 44px;
+  background-color:#F7F6F5;
+  border-color:rgba(0, 0, 0, 0.2) ;
+  border-radius: 5px;
+}
+.similar__top-button-right {
+  width: 44px;
+  height: 44px;
+  background-color:#F7F6F5;
+  border-radius: 5px;
+
+}
+
+/* ---------------------------.similar__items------------------------- */
+
+
+.similar__items {
+  margin-top: 40px;
+
+}
+.similar__items-inner {
+  display: flex;
+  gap: 20px;
+}
+.similar__item {
+}
+.similar__item-plate {
+  position: relative;
+}
+/* я не смого чисто сердце сохранить  */
+.similar__item-heart {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  border: none;
+  padding: 0;
+  width: 24;
+  height: 24;
+
+}
+.similar__item-text {
+  background-color: #FFFFFF;
+  padding: 16px 26px 16px 16px;
+}
+.similar__item-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3A3845;
+  margin-bottom: 8px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  white-space: nowrap
+ 
+}
+.similar__item-price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #595667;
+}
+
+
+
+
