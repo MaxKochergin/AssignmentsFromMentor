@@ -21,20 +21,6 @@
     font-weight:600;
   }
 
-  html{
-    box-sizing: border-box;
-  }
-
-  *,
-  *::after,
-  *::before{
-    box-sizing: inherit;
-  }
-
-  a{
-    text-decoration: none;
-    color: inherit;
-  }
 
   body{
     color: #3A3845;
@@ -47,7 +33,9 @@
   ul{
     list-style-type: none;
   }
-  
+
+
+  /* ----------------------Heder-------------------- */
   .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -65,12 +53,14 @@
 
   .navigation{
     max-width:640px ;
-    min-height: 50px;
+    height: 50px;
     display: flex;
     margin-right: 75px;
     align-items: center;  
-   
   }
+
+ 
+
   .header__logo {
     max-width: 183px;
     max-height: 48px;
@@ -92,6 +82,9 @@
     min-height: 27px;
     max-height: 27px;
     margin: 35.5px 0;
+  }
+  .header__navigation-button{
+    display: none;
   }
   .buttons{
     min-width:490px ;
