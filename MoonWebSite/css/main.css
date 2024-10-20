@@ -292,7 +292,7 @@ b{
 }
 
 .product__button-cart-text{
-  margin-right: 25px;
+  margin-right: 10px;
   font-weight: 600;
   color: #FFFFFF;
 }
@@ -388,6 +388,7 @@ b{
 
 .similar {
   margin-top: 130px;
+  padding-bottom: 130px;
 }
 .container {
 }
@@ -473,5 +474,114 @@ b{
 }
 
 
+/* ---------------------------footer------------------------- */
+
+/* ---------------------------footer__info------------------------- */
+
+
+/* ---------------------------footer__info-branding------------------------- */
+.footer{
+  background-color:#3A3845;
+
+}
+.info {
+ 
+}
+.container {
+}
+.info__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 120px 0px 120px;
+}
+.info__branding {
+  width:387px ;
+  height: 200px;
+}
+.info__logo {
+}
+.info__text-button {
+  margin-top: 29px;
+  width: 304px;
+  height: 120px;
+}
+.info__text {
+  height: 48px;
+  color:#CAC9CF ;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+
+}
+.info__button {
+  width: 240px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#3A3845;
+  border: 1px solid #FFFFFF ;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.info__button-text {
+  margin-right: 8px;
+  color: white;
+  font-weight: 600;
+  
+}
+.info__button-arrow {
+}
+
+/* ---------------------------footer__info-link------------------------- */
+
+
+.info__links-group {
+  background-color:#3A3845;
+  width: 590px;
+  height: 191px;
+  display: flex;
+  justify-content: space-between;
+}
+.info__about {
+}
+.info__about-title {
+  margin-bottom: 24px;
+  color: #FFFFFF;
+  font-size: 20px;
+  
+
+}
+.info__about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #CAC9CF;
+}
+.info__about-item {
+}
+.info__about-link {
+}
+
+
+
+/* ---------------------------footer__license------------------------- */
+
+
+.license {
+  margin-top: 47px;
+}
+.license__text{
+  color: #A6A6A8;
+  width: 607px;
+
+}
+.container {
+}
+.license__container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
 
 
