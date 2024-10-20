@@ -570,6 +570,8 @@ b{
 
 .license {
   margin-top: 47px;
+  padding: 40px;
+
 }
 .license__text{
   color: #A6A6A8;
@@ -579,6 +581,9 @@ b{
 .container {
 }
 .license__container {
+  padding-top: 24px;
+
+  border-top: 1px solid #595667 ;
   display: flex;
   justify-content: center;
   align-items: end;
