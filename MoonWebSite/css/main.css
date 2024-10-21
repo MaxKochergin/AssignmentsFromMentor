@@ -35,16 +35,18 @@
   }
 
 
+
+
   /* ----------------------Heder-------------------- */
   .container {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     padding-left: 120px;
     padding-right: 120px;
   }
   .header__container {
-    max-height: 100px;
-    max-width: 1200px;
+    height: 100px;
+    width: 1200px;
     padding-left: 0px;
     padding-right: 0px;
     display: flex;
@@ -164,14 +166,17 @@
 
   .product {
   }
-  .product__cards {
-    max-width: 692px;
-    max-height: 588px;
-    
+  .product__card{
+    display: flex;
+    flex-direction: column;
   }
-  .product__photo {
-    max-width: 692px;
-    max-height:464px;
+  .product__photo-mobile{
+    display: none;
+  }
+  
+  .product__photo img{
+    max-width: 100%;
+    height:464px;
   }
   .product__different-photos {
     margin-top: 24px;
