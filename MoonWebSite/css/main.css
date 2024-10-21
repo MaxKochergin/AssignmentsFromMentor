@@ -435,11 +435,15 @@ b{
 .similar__items-inner {
   display: flex;
   gap: 20px;
+  
 }
 .similar__item {
 }
 .similar__item-plate {
   position: relative;
+}
+.similar__items-inner_mobile{
+  display: none;
 }
 /* я не смого чисто сердце сохранить  */
 .similar__item-heart {

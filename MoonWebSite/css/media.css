@@ -131,35 +131,132 @@
 /* ------------------------------------Similar---------------------------------------- */
 
     .similar {
+        margin-top: 40px;
+        padding-bottom: 40px;
     }
     .similar__container {
     }
     .similar__top {
     }
     .similar__top-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 29px;
+        
     }
     .similar__top-title {
+        font-size: 24px;
     }
     .similar__top-buttons {
+        display: none;
+
     }
-    .similar__top-button-left {
+    .similar__top-buttons_mobile{
+
     }
-    .similar__top-button-right {
-    }
+   
     .similar__items {
+        margin-top: 24px;
+        
     }
     .similar__items-inner {
+        display: none;
     }
     .similar__item {
+        width: 156px;
     }
-    .similar__item-plate {
+    .similar__items-inner_mobile{
+        display: flex;
+        justify-content: space-between
     }
+
+    
     .similar__item-heart {
     }
     .similar__item-text {
+        padding: 8px;
     }
     .similar__item-title {
+        font-size: 16px;
+        white-space: wrap;
+
     }
     .similar__item-price {
+        font-size: 16px
     }
+    .similar__top-buttons_mobile{
+        display: flex;
+        justify-content: end;
+        gap:16px;
+        margin-top: 24px;
+    }
+
+    /* -----------------------------------------footer--------------------------- */
+
+
+    .footer {
+
+    }
+    .info {
+    }
+    .container {
+    }
+    .info__container {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .info__branding {
+        padding: 0px;
+    }
+    .info__logo {
+    }
+    .info__text-button {
+    }
+    .info__text {
+    }
+    .info__button {
+    }
+    .info__button-text {
+    }
+    .info__button-arrow {
+    }
+    .info__links-group {
+        width: 291px;
+        height: 336px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap:16px;
+    }
+    .info__about {
+        width: 88px;
+    }
+    .info__about-title {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .info__about-list {
+        gap: 12px;
+    }
+    .info__about-item {
+        font-size: 14px;
+    }
+    .info__about-link {
+    }
+    .info__servise {
+        width: 119px;
+
+    }
+    .info__portfolio {
+        width: 126px;
+
+    }
+    .license {
+    }
+    .license__container {
+    }
+    .license__text {
+    }
+
 }
