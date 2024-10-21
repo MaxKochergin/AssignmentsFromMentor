@@ -1,9 +1,6 @@
 @media(max-width: 800px){
     /* -------------------------------------Header---------------------------------------- */
 
-    .header{
-        height: 64px;
-    }
     .container {
         width: 362px;
         margin: 0 auto;
@@ -14,7 +11,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 16px 16px 16px 16px;
+        height: 64px;
+
     }
     .navigation {
         margin: 0;
@@ -43,8 +41,7 @@
     }
     /* -------------------------------------Main---------------------------------------- */
 
-    .main {
-    }
+
     .top {
         display: none;
     }
@@ -86,14 +83,12 @@
         margin: 0px;
         margin-top: 40px;
         width: 330px;
-
     }
 
     .product__name {
         margin-bottom: 16px;
         font-size: 20px;
     }
-
 
     .product__button-cart {
         width: 264px;
@@ -114,15 +109,11 @@
         margin-top: 30px;
 
     }
-    .product__accordeon-trigger {
-    }
+
     .product__accordeon-trigger-inner {
         height: 32px;
     }
-    .product__accordeon-title {
-    }
-    .product__accordeon-sign {
-    }
+    
     .product__accordeon-trigger-inner_last {
         height: 25px; 
     }
@@ -133,10 +124,6 @@
     .similar {
         margin-top: 40px;
         padding-bottom: 40px;
-    }
-    .similar__container {
-    }
-    .similar__top {
     }
     .similar__top-inner {
         display: flex;
@@ -150,9 +137,6 @@
     }
     .similar__top-buttons {
         display: none;
-
-    }
-    .similar__top-buttons_mobile{
 
     }
    
@@ -172,8 +156,6 @@
     }
 
     
-    .similar__item-heart {
-    }
     .similar__item-text {
         padding: 8px;
     }
@@ -195,13 +177,6 @@
     /* -----------------------------------------footer--------------------------- */
 
 
-    .footer {
-
-    }
-    .info {
-    }
-    .container {
-    }
     .info__container {
         padding: 0px;
         display: flex;
@@ -209,19 +184,13 @@
     }
     .info__branding {
         padding: 0px;
-    }
-    .info__logo {
-    }
-    .info__text-button {
-    }
-    .info__text {
+        width:328px ;
+        margin-bottom: 24px;
     }
     .info__button {
-    }
-    .info__button-text {
-    }
-    .info__button-arrow {
-    }
+        width: 170px;
+        height: 48px;
+    }    
     .info__links-group {
         width: 291px;
         height: 336px;
@@ -231,6 +200,7 @@
     }
     .info__about {
         width: 88px;
+        margin-right:84px ;
     }
     .info__about-title {
         font-size: 16px;
@@ -253,10 +223,23 @@
 
     }
     .license {
+        margin: 0;
+        padding: 24px;
     }
     .license__container {
+        display: none;
     }
     .license__text {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        width: 330px;
     }
 
+    .license__container_mobile{
+        padding: 16px 6px 3px 6px;
+        border-top: 1px solid #595667 ;
+        display: flex;
+        flex-direction: column;
+    }
 }
